@@ -36,7 +36,7 @@ resource "aws_cloudwatch_event_target" "sns" {
 resource "aws_sns_topic_subscription" "email-target" {
   topic_arn = aws_sns_topic.aws_activity.arn
   protocol  = "email"
-  endpoint  = "adityadhopade97@gmail.com"
+  endpoint  = "yourmail@gmail.com"
 }
 
 resource "aws_sns_topic_policy" "default" {
