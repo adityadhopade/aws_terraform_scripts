@@ -3,3 +3,4 @@ variable.tf
 terraform.tfstate.backup
 *.lock.hcl
 terraform.tfstate.backup
+my_documentetion_reference.txt
